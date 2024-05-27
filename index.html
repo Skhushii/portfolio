@@ -505,17 +505,36 @@
               <div class="page-back">
                   <h1 class="title">Contact Me!</h1>
 
-                  <div class="contact-box">
-                      <form method="POST" id="myform">
-                          <input type="text" name="username" class="field" id="myform_firstname"
-                              placeholder="Username">
-                          <input type="email" name="email" class="field" placeholder="Email Address"
-                              id="myform_email">
-                          <textarea name="message" id="" cols="30" rows="10" class="field"
-                              placeholder="Enter Message"></textarea>
-                          <input type="submit" class="btn" value="Send Message">
-                      </form>
-                  </div>
+                   <div class="contact-box">
+              <form  action="https://formspree.io/f/meqywngq"
+              method="POST" >
+                <input
+                  type="text"
+                  class="field"
+                  placeholder="Full Name"
+                  required
+                  name="name"
+                />
+                <input
+                  type="email"
+                  class="field"
+                  placeholder="Email-Address"
+                  required
+                  name="email"
+                />
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="field"
+                  placeholder="Your Message"
+                  required
+                  name="message"
+                ></textarea>
+                <input type="submit" class="btn" value="send Message"/>
+              </form>
+            </div>
               </div>
           </div>
       </div>
